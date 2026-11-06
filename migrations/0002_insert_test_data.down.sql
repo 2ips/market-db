@@ -1,0 +1,9 @@
+DELETE FROM orders;
+
+DELETE FROM users;
+
+ALTER SEQUENCE orders_id_seq
+RESTART WITH 1;
+
+ALTER SEQUENCE users_id_seq
+RESTART WITH 1;
